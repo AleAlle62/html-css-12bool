@@ -11,12 +11,9 @@
     flex-wrap: nowrap;
 }
 
-.col-offset-9 {
-    margin-left: calc((100% / 12) * 9);
-}
 
 
-
+/* COL  */
 
 
 .col-1 {
@@ -41,32 +38,32 @@
     text-align: center;
 }
 
+.col-3 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 3);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
+
+.col-4 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 4);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
 .col-5 {
     display: flex;
     align-items: center;
     margin: 1px;
     flex-basis: calc((100% / 12) * 5);
-    background-color: rgb(15, 216, 15);
-    height: 5vh;
-    text-align: center;
-}
-
-
-.col-12 {
-    display: flex;
-    align-items: center;
-    margin: 1px;
-    flex-basis: calc((100% / 12) * 12);
-    background-color: rgb(15, 216, 15);
-    height: 5vh;
-    text-align: center;
-}
-
-.col-8 {
-    display: flex;
-    align-items: center;
-    margin: 1px;
-    flex-basis: calc((100% / 12) * 12);
     background-color: rgb(15, 216, 15);
     height: 5vh;
     text-align: center;
@@ -83,3 +80,71 @@
     text-align: center;
 }
 
+.col-7 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 7);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
+.col-8 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 8);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
+.col-9 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 9);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
+.col-10 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 10);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
+.col-11 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 11);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
+
+.col-12 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 12);
+    background-color: rgb(15, 216, 15);
+    height: 5vh;
+    text-align: center;
+}
+
+
+/* OFFSET  */
+
+.col-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+}
