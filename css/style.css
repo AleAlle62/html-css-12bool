@@ -1,0 +1,45 @@
+.Nested-2 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    padding: 0.5em;
+    height: 5vh;
+    border-radius: 10px;
+    flex-basis: calc((100% / 6) * 1);
+    background-color: #006cfa;
+    color: white;
+}
+
+.Nes-6 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    flex-basis: calc((100% / 12) * 6);
+    background-color: rgb(15, 216, 15);
+    height: 10vh;
+    text-align: center;
+}
+
+.Nested-8 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    padding: 0.5em;
+    border-radius: 10px;
+    flex-basis: calc((100% / 6) *  4);
+    background-color: #006cfa;
+    height: 5vh;
+    color: white;
+}
+
+.Nested-6 {
+    display: flex;
+    align-items: center;
+    margin: 1px;
+    padding: 0.5em;
+    border-radius: 10px;
+    flex-basis: calc((100% / 12) * 6);
+    background-color: #006cfa;
+    height: 5vh;
+    color: white;
+}  
