@@ -5,7 +5,7 @@
     display: flex;
     margin: 1px;
     flex-basis: calc((100% / 12) * 6);
-    background-color: rgb(15, 216, 15);
+    background-color: salmon;
     height: 10vh;
     justify-content: center;
 }
@@ -16,7 +16,7 @@
     margin-top: 2%;
     margin-left: 1px;
     flex-basis: calc((100% / 12) * 6);
-    background-color: rgb(15, 216, 15);
+    background-color: salmon;
     height: 5vh;
     justify-content: center;
 }
@@ -27,7 +27,7 @@
     margin-top: 3.4%;
     margin-left: 1px;
     flex-basis: calc((100% / 12) * 6);
-    background-color: rgb(15, 216, 15);
+    background-color: salmon;
     height: 5vh;
     justify-content: center;
 }
@@ -37,7 +37,7 @@
     align-items: center;
     margin: 1px;
     flex-basis: calc((100% / 12) * 12);
-    background-color: rgb(15, 216, 15);
+    background-color: salmon;
     height: 10vh;
     justify-content: space-around;
 }
@@ -47,7 +47,7 @@
     align-items: center;
     margin: 1px;
     flex-basis: calc((100% / 12) * 12);
-    background-color: rgb(15, 216, 15);
+    background-color: salmon;
     height: 10vh;
     justify-content: space-between;
 }
@@ -62,13 +62,14 @@
 .row-bottom {
     display: flex;
     align-items: flex-end;
+
 }
 
 .col-6-center {
 
     margin: 1px;
     flex-basis: calc((100% / 12) * 6);
-    background-color: rgb(15, 216, 15);
+    background-color: salmon;
     height: 5vh;
 
 }
@@ -76,7 +77,7 @@
 .col-6-bottom {
     margin: 1px;
     flex-basis: calc((100% / 12) * 6);
-    background-color: rgb(15, 216, 15);
+    background-color: salmon;
     height: 5vh;
 }
 
